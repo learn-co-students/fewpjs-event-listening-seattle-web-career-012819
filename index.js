@@ -1,2 +1,9 @@
+// const input = document.querySelector('input');
+
 function addingEventListener() {
+  const main = document.getElementById('main');
+
+  main.addEventListener('click', function(event) {
+    alert('I was clicked!');
+  });
 }
